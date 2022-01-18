@@ -1,5 +1,5 @@
 # Calendar (Google Style)
-Simple calendar web app using HTML, CSS and JS.
+A simple calendar web app using HTML, CSS and JS taken from **Code and Create**'s tutorial, very easy to understand and follow. For now the only change I have done is my calendar week starts from *Monday* instead of Sunday.
 
 <p align="center">
   <img src="docs/ss.jpeg" alt="Screenshot of Calendar web app">
@@ -17,7 +17,8 @@ Simple calendar web app using HTML, CSS and JS.
 
 
 ## References
-[Youtube Link](https://www.youtube.com/watch?v=o1yMqPyYeAo)
+Here's the video tutorial [Youtube Link](https://www.youtube.com/watch?v=o1yMqPyYeAo) for those interested.
+
 ### Fonts
 - [Google font](https://fonts.google.com/specimen/Quicksand?query=quick)
 - [Font awesome](https://cdnjs.com/libraries/font-awesome)
