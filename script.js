@@ -50,7 +50,7 @@ const renderCalendar = () =>{
 	
 	// The previous month
 	const prevLastDay = new Date(date.getFullYear(), date.getMonth(), 0).getDate()
-	console.log(prevLastDay)
+	// console.log(prevLastDay)
 	
 	for(let x=rotateIndex(firstDayIndex); x > 0; x--){
 		days += `<div class="prev-date">${prevLastDay-x+1}</div>`
@@ -86,7 +86,7 @@ document.querySelector('.prev').addEventListener('click', ()=>{
 document.querySelector('.next').addEventListener('click', ()=>{
 	date.setMonth(date.getMonth() + 1)
 	renderCalendar();
-	console.log('clickity')
+	// console.log('clickity')
 })
 
 renderCalendar();
